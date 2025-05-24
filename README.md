@@ -4,7 +4,7 @@ POST is a knowledge graph embedding model that uses spatial analysis and inferen
 * Model details -  POST is a knowledge graph embedding model that uses spatial analysis and inference to embed data 
 into vector spaces. POST is trained on large amounts of location data, known facts, from which other known facts can 
 be learned. POST using geoenrichment techniques to perform the spatial and inference analysis. The test model was 
-trained on 17.9 million locations. 
+trained on 17.9 million locations. POST models are Retrieval-Augmented Generation (RAG) pipelines that enhance the accuracy and reliability of language models by incorporating external knowledge. POST models are a key component in Agentic RAG AI systems: retrieval system (RAG), generation model (LLM), and agent layer.
 * Intended uses -  POST is intended to be used for grounding Gen AI models with authoritative GIS data sources that 
 tether the AI outputs to real-world data and contexts. POST reduces hallucinations and bias, enhances accuracy, and 
 improves contextual awareness by using facts based in the real-world thereby giving the AI an internal world model, 
