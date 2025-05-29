@@ -1,5 +1,5 @@
 # POST
-POST is an embedding model that uses spatial analysis and inference to embed data into vector spaces.
+POST is an embedding model that uses spatial analysis and inference to embed data into vector spaces for use in retrieval-augmented generation (RAG) applications.
 
 * Model details -  POST is an embedding model that uses spatial analysis and inference to embed data into vector spaces for use in retrieval-augmented generation (RAG) applications. POST is trained on large amounts of location data, known facts, from which other known facts can be learned. POST using geoenrichment techniques to perform the spatial and inference analysis. The test model was trained on 17.9 million locations.
 * Intended uses -  POST embedding models serve as the building blocks for Retrieval-Augmented Generation (RAG), pipelines built for grounding language models which leverage authoritative GIS data sources that tether the AI outputs to real-world data and contexts. POST reduces hallucinations and bias, enhances accuracy and reliability, and improves contextual awareness by using facts based in the real-world thereby giving the AI an internal world model, which they lack natively. POST models are a key component in Agentic RAG AI systems: retrieval system (RAG), generation model (LLM), and agent layer.
